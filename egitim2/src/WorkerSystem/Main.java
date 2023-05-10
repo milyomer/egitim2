@@ -9,6 +9,7 @@ public class Main {
         System.out.println(Ahmet.getName());
         System.out.println(Ahmet.getOfficeTime());
         Ahmet.entryLesson();
+        Ahmet.enterCourse();
 
     }
 }

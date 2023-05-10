@@ -15,6 +15,11 @@ public class Assistant extends Academician{
         this.officeTime=officeTime;
     }
 
+    @Override
+    public void enterCourse(){
+        System.out.println(this.getName()+ " derse girmedi");
+    }
+
     public void makeQuiz(){
         System.out.println(this.getName()+ " önümüzdeki hafta çarşamba günü sınav yapıcaktır.");
     }
