@@ -28,4 +28,8 @@ public class Officer extends Worker{
  public void work(){
     System.out.println(this.getName()+ " sabah 8 ve akşam 4 saatleri arası çalışıyor.");
  }
+ @Override
+ public void entry(){
+    System.out.println(this.getName()+ " yetkilisi sisteme giriş yaptı.");
+ }
 }
